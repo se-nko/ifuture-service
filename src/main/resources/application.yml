@@ -1,0 +1,13 @@
+server:
+  servlet:
+    context-path: /service
+  port: 8080
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+statistic:
+  performance:
+    time-unit: 60000
