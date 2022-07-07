@@ -12,7 +12,9 @@ java -jar service-1.jar
 ```
 
 ### Swagger UI
+```
 ${host:localhost}:${port:8080}/service/swagger-ui/index.html
+```
 
 ### Properties
 - server.port: Порт сервиса
